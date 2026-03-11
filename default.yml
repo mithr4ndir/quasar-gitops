@@ -13,6 +13,10 @@ org_settings:
   server_settings:
     server_url: $FLEET_URL
   org_info:
-    org_name: Fleet
+    org_name: Qausar GitOps
   secrets:
     - secret: "$FLEET_GLOBAL_ENROLL_SECRET"
+  webhook_settings:
+    activities_webhook:
+      enable_activities_webhook: true
+      destination_url: "https://webhook.site/c4a9bd93-f802-41e1-828c-20b117e2becb"
