@@ -3,6 +3,9 @@ policies:
 reports:
 agent_options:
 controls:
+  ipados_updates:
+    deadline: "2026-04-30"
+    minimum_version: "26.2"
 software:
 settings:
   secrets:
