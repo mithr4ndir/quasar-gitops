@@ -7,7 +7,7 @@ inputs:
     default: './'
   fleet-branch:
     description: 'The branch of fleetdm/fleet to clone and build fleetctl from.'
-    required: true
+    default: 'main'
   dry-run-only:
     description: 'Whether to only run the fleetctl gitops commands in dry-run mode.'
     default: 'false'
