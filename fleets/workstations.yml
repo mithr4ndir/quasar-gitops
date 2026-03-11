@@ -14,6 +14,10 @@ controls:
     minimum_version: "26.0"
   scripts:
     - path: ../lib/windows/scripts/set-wallpaper.ps1
+    - path: ../lib/macos/scripts/set-dns-cloudflare.sh
+policies:
+  - path: ../lib/windows/policies/antivirus-updated.policies.yml
+  - path: ../lib/macos/policies/dns-resolvers.policies.yml
 software:
 settings:
   secrets:
