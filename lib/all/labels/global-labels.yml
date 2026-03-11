@@ -9,7 +9,7 @@
   platform: darwin,windows
   description: Hosts with an uptime greater than 30 days.
   query: "SELECT 1 FROM uptime WHERE days > 30"
-  label_membership_type: query
+  label_membership_type: dynamic
 
 - name: c suite
   description: Hosts belonging to c suite executives.
